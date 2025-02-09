@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Quiz do Amor 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quiz do Amor 💖</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Em que dia começamos a namorar? 📅</p>
+                <label><input type="radio" name="q1" value="09/12/2024"> 09/12/2024</label><br>
+                <label><input type="radio" name="q1" value="10/12/2024"> 10/12/2024</label><br>
+                <label><input type="radio" name="q1" value="09/11/2024"> 09/11/2024</label>
+            </div>
+            <div class="text-fragment" id="text1">Meu bem, hoje a festa e nossa! Parabéns pelos nossos lindos  2 meses de namoro e pelo sentimento incrível que estamos cultivando 
+                dentro de nós!❤️</div>
+
+            <div class="question">
+                <p>2. Qual é o apelido que mais usamos? 🥰</p>
+                <label><input type="radio" name="q2" value="Bebê"> Bebê</label><br>
+                <label><input type="radio" name="q2" value="Mor"> Mor</label><br>
+                <label><input type="radio" name="q2" value="Criança"> Criança</label>
+            </div>
+            <div class="text-fragment" id="text2">você mudou o meu mundo, a minha vida. 
+                você me faz bem, me faz melhor, e com
+                você agora eu vivo com uma intensidade
+                que eu não pensei possível.❤️🥰</div>
+
+            <div class="question">
+                <p>3. Onde foi nosso primeiro Beijo? 💋</p>
+                <label><input type="radio" name="q3" value="pracinha"> Pracinha</label><br>
+                <label><input type="radio" name="q3" value="vôlei"> Vôlei</label><br>
+                <label><input type="radio" name="q3" value="rua"> Rua</label>
+            </div>
+            <div class="text-fragment" id="text3">Eu sou eternamente grato por te ter de novo e eu espero que tudo que a gente está vivendo não seja apenas coisa de momentos mas sim lembranças para contarmos ao nossos filhos no futuro💖</div>
+            <button type="button" onclick="checkAnswers()">Enviar Respostas 💘</button>
+        </form>
+    </div>
+
+    <div class="heart-container">
+        <div class="heart" id="heart"></div>
+        <div class="progress" id="progress">0%</div>
+    </div>
+
+    <div id="finalMessage">Meu bem, hoje a festa e nossa! Parabéns pelos nossos lindos  2 meses de namoro e pelo sentimento incrível que estamos cultivando 
+        dentro de nós!❤️
+        você mudou o meu mundo, a minha vida. 
+        você me faz bem, me faz melhor, e com
+        você agora eu vivo com uma intensidade
+        que eu não pensei possível.❤️🥰
+        Eu sou eternamente grato por te ter de novo e eu espero que tudo que a gente está vivendo não seja apenas coisa de momentos mas sim lembranças para contarmos ao nossos filhos no futuro pois quero poder construir uma família com vc quero que seja vc para todo o sempre hoje a gente completa 2 meses juntos mas daqui um tempo estaremos completando 1, 2, 3 anos juntos eu te amo como nunca imaginei que amaria ninguém cada momento ao seu lado se torna único e especial tudo que faço com vc é ainda melhor amo muito o carinho o respeito e a preocupação que tem comigo amo o laço e toda a intimidade que criamos com tão pouco tempo eu gostaria muito que soubesse o quanto eu te amo o quanto sou apaixonado por vc o quanto eu admiro vc Só desejo que nossa história seja longa e inesquecível, até porque não imagino meus dias sem você. 
+        Eu Te amo!❤️💫
+        Você é uma pessoa maravilhosa e estou muito feliz de termos dado um passo juntos rumo à felicidade quando decidimos namorar quando você decidiu me aceitar de volta.
+        Essa seja, talvez, a decisão mais
+        acertada que vamos tomar na vida! Ou melhor que eu já tomei na vida❤️
+        Eu te amo muito e sou completamente apaixonado por você ❤️🥺🥺💕</div>
+
+    <audio id="loveSong" src="https://ia903106.us.archive.org/7/items/edsheeranphotographofficialmusicvideo_201912/Ed%20Sheeran%20-%20Photograph%20%28Official%20Music%20Video%29.mp3"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
